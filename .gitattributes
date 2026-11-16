@@ -1,0 +1,9 @@
+# Standard: Automatische Normalisierung
+* text=auto
+
+# Shell- und Konfigurationsdateien immer zwingend mit LF auschecken:
+*.sh text eol=lf
+*bash* text eol=lf
+*vimrc* text eol=lf
+*lesskey* text eol=lf
+*gitconfig* text eol=lf
